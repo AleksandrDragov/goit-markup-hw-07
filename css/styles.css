@@ -111,7 +111,7 @@ body {
 }
 @media screen and (min-width: 1158px) {
 	.section {
-		padding: 120px 0;
+		padding: 100px 0px 0px 0px;
 	}
 }
 .line {
@@ -345,9 +345,6 @@ span {
 
 /* -------ABOUT------- */
 
-.about {
-	padding: 120px 0;
-}
 .section {
 }
 .about-container {
@@ -360,6 +357,7 @@ span {
 .about-list {
 	display: flex;
 	column-gap: 24px;
+	padding-bottom: 120px;
 }
 
 .about-item {
@@ -375,6 +373,7 @@ span {
 
 .team {
 	background-color: var(--accent);
+	padding-bottom: 100px;
 }
 
 .team-container {
@@ -387,7 +386,7 @@ span {
 .team-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 24px 16px;
+	gap: 64px 24px;
 	justify-content: center;
 }
 
@@ -440,6 +439,7 @@ span {
 /* -------CUSTOMERS------- */
 
 .customers {
+	padding-bottom: 100px;
 }
 
 .customers-container {
